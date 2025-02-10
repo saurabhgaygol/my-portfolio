@@ -8,7 +8,7 @@ body
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1000; /* Ensure it stays above other content */
+  z-index: 1000;
   
 }
 
@@ -16,12 +16,12 @@ body
    .bg-image
 {   
     
-    background-image: url('./photos/bgimage.png'); /* Replace with your image path */
-    background-size: cover; /* Ensures the image covers the entire div */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents image repetition */
-    height: 100%; /* Set the height of the container */
-    width: 100%; /* Full width of the container */
+    background-image: url('./photos/bgimage.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
    
 }
 }
@@ -30,14 +30,13 @@ body
   .bg-image
 {
    background-color: black;
-   background-size: cover; /* Ensures the image covers the entire div */
-   background-position: center; /* Centers the image */
-   background-repeat: no-repeat; /* Prevents image repetition */
-   height: 100vh; /* Set the height of the container */
-   width: 100%; /* Full width of the container */
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100vh;
+   width: 100%; 
 }
 }
-
 
 .logo
 {
@@ -58,7 +57,6 @@ body
   margin-left:30px;
  
 }
-
 }
 
 .fa-solid
@@ -192,36 +190,27 @@ body
 }
 }
 
-
-
-
-
-
-
-
 @media (min-width: 768px) {
   .AbouteSection{
    
-    background-image: url('./photos/qddqd.png'); /* Replace with your image path */
-   background-size: cover; /* Ensures the image covers the entire div */
-   background-position: center; /* Centers the image */
-   background-repeat: no-repeat; /* Prevents image repetition */
-   height: 100vh; /* Set the height of the container */
-   width: 100%; /* Full width of the container */
-  
+    background-image: url('./photos/qddqd.png'); 
+   background-size: cover; 
+   background-position: center; 
+   background-repeat: no-repeat;
+   height: 100vh;
+   width: 100%; 
 }
 }
-
 
 @media (min-width: 100px) {
   .AbouteSection
 {
    background-color: black;
-   background-size: cover; /* Ensures the image covers the entire div */
-   background-position: center; /* Centers the image */
-   background-repeat: no-repeat; /* Prevents image repetition */
-   height: 96vh; /* Set the height of the container */
-   width: 100%; /* Full width of the container */
+   background-size: cover; 
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 96vh; 
+   width: 100%;
    
 }
 }
@@ -382,3 +371,74 @@ body
  
   
 }
+
+.Project-sectioncontact
+{
+  width: 100%;
+  height: 85vh;
+ 
+}
+
+@media (min-width: 360px) {
+  .Project-sectioncontact {
+    margin-top: 100vh;
+  }
+}
+@media (min-width: 1170px) {
+  .Project-sectioncontact {
+    margin-top: 0vh;
+  }
+}
+.contact-page
+{
+  margin-top: 1%;
+  width:fit-content;
+  border-color: 2px solid black;
+  box-shadow: 0 0 5px #0dcaf0, 0 0 5px #0dcaf0, 0 0 80px #0dcaf0;
+
+}
+
+.contact-row-page
+{
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-row-page2
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.image-contact
+{
+  width: 425px;
+  height: 425px;
+  filter: drop-shadow(5px 5px 40px #0dcaf0);
+}
+
+.form-control
+{
+  height: 4vh;
+  box-shadow: 0 0 1px #ffffff, 0 0 1px #fcfdfd, 0 0 2px #ffffff;
+}
+
+.submitbtn
+{
+  width: 20vh;
+}
+
+.contactinfo
+{
+  height: 10vh;
+  margin-top: 11%;
+  
+}
+
+
+
+
