@@ -272,7 +272,6 @@ body
 }
 
 
-
 .Projectcard1
 {
   padding-top: 10%;
@@ -386,24 +385,20 @@ body
 }
 @media (min-width: 1170px) {
   .Project-sectioncontact {
-    margin-top: 0vh;
+    margin-top: 30vh;
   }
-}
-.contact-page
-{
-  margin-top: 1%;
-  width:fit-content;
-  border-color: 2px solid black;
-  box-shadow: 0 0 5px #0dcaf0, 0 0 5px #0dcaf0, 0 0 80px #0dcaf0;
-
 }
 
 .contact-row-page
-{
+{ 
+ 
   height: max-content;
+  width: 110vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-color: 2px solid black;
+  box-shadow: 0 0 5px #0dcaf0, 0 0 5px #0dcaf0, 0 0 80px #0dcaf0;
 }
 
 .contact-row-page2
