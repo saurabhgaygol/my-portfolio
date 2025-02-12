@@ -434,6 +434,15 @@ body
   
 }
 
+@media only screen and (min-width:250px) and 
+                     (max-width:450px) {
+.fromdiv
+{
+ margin-left: 35px; 
+}
+}
 
-
+.form-control {
+  background-image: none !important;
+}
 
