@@ -111,7 +111,7 @@ body
 .textlink
 {
   text-decoration: none;
-
+   padding-left: 0;
 }
 
 .rounded-icon {
