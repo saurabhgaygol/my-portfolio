@@ -101,6 +101,19 @@ body
 }
 }
 
+.myicon
+{
+  display: flex;
+  justify-content: space-between;
+  max-width: 200px;
+}
+
+.textlink
+{
+  text-decoration: none;
+
+}
+
 .rounded-icon {
   width: 35px; 
   height: 35px; 
@@ -115,6 +128,8 @@ body
   box-shadow: 0 0 5px #0dcaf0, 0 0 15px #0dcaf0, 0 0 40px #0dcaf0;
   
 }
+
+
 
 .myprofile
 {
