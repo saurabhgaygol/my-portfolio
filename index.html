@@ -17,7 +17,7 @@
     <nav class="navbar navbar-expand-md" >
         <div class="container-fluid ">
           <a class="navbar-brand logo" href="#"><img src="./photos/Brandlogo.png" alt="logo" class="logo"></a>
-          <button class="navbar-toggler mb-1 colldiv1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler mb-1 colldiv1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" id="navToggler">
             <span class="fa-solid fa-bars btn btn-light border border-info btn btn-light "></span>
           </button>
           <div class="collapse navbar-collapse colldiv" id="navbarNavAltMarkup">
@@ -50,8 +50,8 @@
               <a href="https://www.linkedin.com/in/saurabh-gaygol/" target="_blank" class="col-1 textlink">
                 <i class="fa-brands fa-linkedin rounded-icon"></i>
             </a>
-            <a href="" target="_blank" class="col-1 textlink">
-                <i class="fa-brands fa-twitter rounded-icon"></i>
+            <a href="https://github.com/saurabhgaygol" target="_blank" class="col-1 textlink">
+                <i class="fa-brands fa-github rounded-icon"></i>
             </a>
             <a href="https://www.instagram.com/saurabhgaygol?igsh=Y2tlOHg3c2VwaHlq" target="_blank" class="col-1 textlink">
                 <i class="fa-brands fa-instagram rounded-icon"></i>
@@ -64,7 +64,7 @@
             
            <div class="container">
             <div class="row d-flex d-md-block justify-content-center align-items-center">
-            <a type="button" class=" btn text-white align-items-center mx-4 me-0 my-1 fw-bolder donlodbtn" href="./Resume/Saurabh Gaygol Resume.pdf" download="./Resume/Resume 1.pdf">Download cv</a>
+            <a type="button" class=" btn text-white align-items-center mx-4 my-1 fw-bolder donlodbtn" href="./Resume/Saurabh Gaygol Resume.pdf" download="./Resume/Saurabh Gaygol Resume.pdf">Download cv</a>
             </div>
            </div>
           </div>
@@ -218,6 +218,30 @@
         }
     });
 </script>
+
+
+<style>
+  .custom-style {
+    background-color: rgba(0, 0, 0, 0.8); /* Example: Background change */
+    padding: 10px; /* Example: Extra padding */
+    transition: all 0.3s ease-in-out;
+  }
+</style>
+
+<script>
+  document.getElementById("navToggler").addEventListener("click", function () {
+    let navbar = document.getElementById("navbarNavAltMarkup");
+    if (navbar.classList.contains("show")) {
+      navbar.classList.remove("custom-style");
+    } else {
+      navbar.classList.add("custom-style");
+    }
+  });
+</script>
+
+
+
+
  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script> 
 </body>
